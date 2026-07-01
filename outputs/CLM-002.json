@@ -1,0 +1,62 @@
+{
+  "decision": {
+    "claim_id": "CLM-002",
+    "decision": "Partially Approve",
+    "claimed_amount": 137000.0,
+    "approved_amount": 122500.0,
+    "rejected_amount": 14500.0,
+    "deductions": [
+      {
+        "item": "Hotel, 2 nights",
+        "amount": 10000.0,
+        "reason": "over cap (50000)"
+      },
+      {
+        "item": "Meals, 3 days",
+        "amount": 4500.0,
+        "reason": "over cap (22500)"
+      }
+    ],
+    "missing_documents": [],
+    "policy_references": [
+      "Policy Section 3: Per-Diem and Category Limits",
+      "Section 3, Subsection 2: Spending Limits"
+    ],
+    "required_approval": "Manager approval",
+    "confidence": 0.9,
+    "reason_codes": [
+      "OVER_CAP"
+    ],
+    "explanation": "The claim is partially approved due to over-cap amounts in lodging and meals. The approved amount is the claimed amount minus the over-cap amounts."
+  },
+  "audit_trail": [
+    {
+      "tool": "check_eligibility",
+      "args": {}
+    },
+    {
+      "tool": "check_spending_limits",
+      "args": {}
+    },
+    {
+      "tool": "check_receipt_completeness",
+      "args": {}
+    },
+    {
+      "tool": "check_submission_window",
+      "args": {}
+    },
+    {
+      "tool": "detect_duplicate",
+      "args": {}
+    },
+    {
+      "tool": "check_airfare_class",
+      "args": {}
+    },
+    {
+      "tool": "check_approval_threshold",
+      "args": {}
+    }
+  ]
+}

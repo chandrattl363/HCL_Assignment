@@ -1,0 +1,207 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "employee_id": "EMP-310",
+    "employee_name": "Asha Rao",
+    "purpose": "Local one-day data conference",
+    "travel_start": "2026-06-02",
+    "travel_end": "2026-06-02",
+    "submission_date": "2026-06-05",
+    "currency": "INR",
+    "line_items": [
+      {
+        "category": "conference_fees",
+        "description": "DataCon 2026 registration",
+        "amount": 25000.0,
+        "date": "2026-06-02",
+        "vendor": "DataCon",
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Lunch and dinner",
+        "amount": 6500.0,
+        "date": "2026-06-02",
+        "vendor": "Cafe Express",
+        "days": 1,
+        "receipt_attached": true
+      },
+      {
+        "category": "ground_transport",
+        "description": "Rideshare to venue",
+        "amount": 4000.0,
+        "date": "2026-06-02",
+        "vendor": "Uber",
+        "days": 1,
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-002",
+    "employee_id": "EMP-311",
+    "employee_name": "Marco Silva",
+    "purpose": "3-day client visit, out of town",
+    "travel_start": "2026-05-18",
+    "travel_end": "2026-05-20",
+    "submission_date": "2026-05-26",
+    "currency": "INR",
+    "line_items": [
+      {
+        "category": "airfare",
+        "description": "Economy round trip",
+        "amount": 42000.0,
+        "date": "2026-05-18",
+        "vendor": "Delta",
+        "fare_class": "economy",
+        "booked_days_in_advance": 12,
+        "receipt_attached": true
+      },
+      {
+        "category": "lodging",
+        "description": "Hotel, 2 nights",
+        "amount": 60000.0,
+        "date": "2026-05-18",
+        "vendor": "City Suites",
+        "nights": 2,
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Meals, 3 days",
+        "amount": 27000.0,
+        "date": "2026-05-18",
+        "vendor": "Various",
+        "days": 3,
+        "receipt_attached": true
+      },
+      {
+        "category": "ground_transport",
+        "description": "Taxis, 2 days",
+        "amount": 8000.0,
+        "date": "2026-05-18",
+        "vendor": "Yellow Cab",
+        "days": 2,
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-003",
+    "employee_id": "EMP-312",
+    "employee_name": "Priya Nair",
+    "purpose": "Regional sales trip",
+    "travel_start": "2026-02-26",
+    "travel_end": "2026-03-01",
+    "submission_date": "2026-05-10",
+    "currency": "INR",
+    "line_items": [
+      {
+        "category": "airfare",
+        "description": "Economy round trip",
+        "amount": 50000.0,
+        "date": "2026-02-26",
+        "vendor": "American Airlines",
+        "fare_class": "economy",
+        "booked_days_in_advance": 20,
+        "receipt_attached": true
+      },
+      {
+        "category": "lodging",
+        "description": "Hotel, 1 night",
+        "amount": 20000.0,
+        "date": "2026-02-26",
+        "vendor": "Roadside Inn",
+        "nights": 1,
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Meals, 1 day",
+        "amount": 6000.0,
+        "date": "2026-02-26",
+        "vendor": "Various",
+        "days": 1,
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-004",
+    "employee_id": "EMP-313",
+    "employee_name": "Daniel Kim",
+    "purpose": "International conference, keynote speaker",
+    "travel_start": "2026-06-08",
+    "travel_end": "2026-06-11",
+    "submission_date": "2026-06-15",
+    "currency": "INR",
+    "line_items": [
+      {
+        "category": "airfare",
+        "description": "Business class international",
+        "amount": 240000.0,
+        "date": "2026-06-08",
+        "vendor": "Emirates",
+        "fare_class": "business",
+        "booked_days_in_advance": 25,
+        "receipt_attached": true
+      },
+      {
+        "category": "lodging",
+        "description": "Hotel, 3 nights",
+        "amount": 72000.0,
+        "date": "2026-06-08",
+        "vendor": "Hilton",
+        "nights": 3,
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Meals, 3 days",
+        "amount": 21000.0,
+        "date": "2026-06-08",
+        "vendor": "Various",
+        "days": 3,
+        "receipt_attached": true
+      },
+      {
+        "category": "conference_fees",
+        "description": "Summit registration",
+        "amount": 60000.0,
+        "date": "2026-06-08",
+        "vendor": "Global Summit",
+        "receipt_attached": false
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-005",
+    "employee_id": "EMP-101",
+    "employee_name": "Sara Lopez",
+    "purpose": "Overnight client meeting",
+    "travel_start": "2026-04-10",
+    "travel_end": "2026-04-11",
+    "submission_date": "2026-04-15",
+    "currency": "INR",
+    "line_items": [
+      {
+        "category": "lodging",
+        "description": "Hotel, 1 night",
+        "amount": 22000.0,
+        "date": "2026-04-10",
+        "vendor": "Grand Plaza Hotel",
+        "nights": 1,
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Dinner",
+        "amount": 5500.0,
+        "date": "2026-04-10",
+        "vendor": "Grand Plaza Restaurant",
+        "days": 1,
+        "receipt_attached": true
+      }
+    ]
+  }
+]

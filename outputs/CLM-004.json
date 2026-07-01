@@ -1,0 +1,68 @@
+{
+  "decision": {
+    "claim_id": "CLM-004",
+    "decision": "Manual Review",
+    "claimed_amount": 393000.0,
+    "approved_amount": 303000.0,
+    "rejected_amount": 90000.0,
+    "deductions": [
+      {
+        "item": "Business class international",
+        "amount": 90000.0,
+        "reason": "over cap (150000)"
+      }
+    ],
+    "missing_documents": [
+      "Receipt for 'Summit registration' (INR 60000.00)"
+    ],
+    "policy_references": [
+      "Policy Section 3: Per-Diem and Category Limits",
+      "Policy Section 4: Airfare Rules",
+      "Policy Section 5: Receipt Requirements",
+      "Policy Section 7: Approval Matrix",
+      "Section 3.1: Eligible Expenses",
+      "Section 4.2: Receipt Requirements"
+    ],
+    "required_approval": "Director approval (Manual Review)",
+    "confidence": 0.48,
+    "reason_codes": [
+      "OVER_CAP",
+      "BUSINESS_CLASS_UNAPPROVED",
+      "EXCEEDS_DIRECTOR_THRESHOLD",
+      "MISSING_MATERIAL_RECEIPT",
+      "MISSING_RECEIPT",
+      "VALIDATOR_OVERRIDE"
+    ],
+    "explanation": "Partially approved due to over-cap airfare and missing conference fee receipt."
+  },
+  "audit_trail": [
+    {
+      "tool": "check_eligibility",
+      "args": {}
+    },
+    {
+      "tool": "check_spending_limits",
+      "args": {}
+    },
+    {
+      "tool": "check_receipt_completeness",
+      "args": {}
+    },
+    {
+      "tool": "check_submission_window",
+      "args": {}
+    },
+    {
+      "tool": "detect_duplicate",
+      "args": {}
+    },
+    {
+      "tool": "check_airfare_class",
+      "args": {}
+    },
+    {
+      "tool": "check_approval_threshold",
+      "args": {}
+    }
+  ]
+}

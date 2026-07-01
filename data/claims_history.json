@@ -1,0 +1,21 @@
+{
+  "_comment": "Previously submitted/paid claims used by the duplicate detector. Mock data only.",
+  "paid_line_items": [
+    {
+      "claim_id": "CLM-2025-0188",
+      "employee_id": "EMP-101",
+      "vendor": "Grand Plaza Hotel",
+      "date": "2026-04-10",
+      "amount": 22000.0,
+      "status": "PAID"
+    },
+    {
+      "claim_id": "CLM-2025-0190",
+      "employee_id": "EMP-204",
+      "vendor": "United Airlines",
+      "date": "2026-02-15",
+      "amount": 54000.0,
+      "status": "PAID"
+    }
+  ]
+}

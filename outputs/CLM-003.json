@@ -1,0 +1,52 @@
+{
+  "decision": {
+    "claim_id": "CLM-003",
+    "decision": "Reject",
+    "claimed_amount": 76000.0,
+    "approved_amount": 0.0,
+    "rejected_amount": 76000.0,
+    "deductions": [],
+    "missing_documents": [],
+    "policy_references": [
+      "Policy Section 6: Submission Window",
+      "Section 3, Article 7"
+    ],
+    "required_approval": "Manager approval",
+    "confidence": 0.8,
+    "reason_codes": [
+      "OUTSIDE_WINDOW",
+      "SUBMISSION_WINDOW"
+    ],
+    "explanation": "The claim was submitted outside the allowed submission window of 30 days after travel end."
+  },
+  "audit_trail": [
+    {
+      "tool": "check_eligibility",
+      "args": {}
+    },
+    {
+      "tool": "check_spending_limits",
+      "args": {}
+    },
+    {
+      "tool": "check_receipt_completeness",
+      "args": {}
+    },
+    {
+      "tool": "check_submission_window",
+      "args": {}
+    },
+    {
+      "tool": "detect_duplicate",
+      "args": {}
+    },
+    {
+      "tool": "check_airfare_class",
+      "args": {}
+    },
+    {
+      "tool": "check_approval_threshold",
+      "args": {}
+    }
+  ]
+}

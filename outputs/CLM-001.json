@@ -1,0 +1,56 @@
+{
+  "decision": {
+    "claim_id": "CLM-001",
+    "decision": "Approve",
+    "claimed_amount": 35500.0,
+    "approved_amount": 35500.0,
+    "rejected_amount": 0.0,
+    "deductions": [],
+    "missing_documents": [],
+    "policy_references": [
+      "ELIGIBLE_CATEGORIES",
+      "Policy Section 7: Approval Matrix",
+      "RECEIPT_REQUIREMENTS",
+      "SPENDING_LIMITS"
+    ],
+    "required_approval": "Auto-approve",
+    "confidence": 1.0,
+    "reason_codes": [
+      "AUTO_APPROVE",
+      "ALL_ELIGIBLE",
+      "WITHIN_LIMITS",
+      "ALL_RECEIPTS"
+    ],
+    "explanation": "The claim is fully compliant with all policies, all items are eligible, within spending limits, and all required receipts are present."
+  },
+  "audit_trail": [
+    {
+      "tool": "check_eligibility",
+      "args": {}
+    },
+    {
+      "tool": "check_spending_limits",
+      "args": {}
+    },
+    {
+      "tool": "check_receipt_completeness",
+      "args": {}
+    },
+    {
+      "tool": "check_submission_window",
+      "args": {}
+    },
+    {
+      "tool": "detect_duplicate",
+      "args": {}
+    },
+    {
+      "tool": "check_airfare_class",
+      "args": {}
+    },
+    {
+      "tool": "check_approval_threshold",
+      "args": {}
+    }
+  ]
+}

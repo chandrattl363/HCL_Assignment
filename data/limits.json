@@ -1,0 +1,32 @@
+{
+  "currency": "INR",
+  "eligible_categories": [
+    "airfare",
+    "lodging",
+    "meals",
+    "ground_transport",
+    "conference_fees"
+  ],
+  "non_reimbursable_categories": [
+    "alcohol",
+    "entertainment",
+    "personal",
+    "minibar",
+    "spa"
+  ],
+  "category_limits": {
+    "meals": { "limit": 7500, "basis": "per_day" },
+    "lodging": { "limit": 25000, "basis": "per_night" },
+    "ground_transport": { "limit": 5000, "basis": "per_day" },
+    "airfare": { "limit": 150000, "basis": "per_trip" },
+    "conference_fees": { "limit": 100000, "basis": "per_trip" }
+  },
+  "receipt_required_above": 2500,
+  "submission_window_days": 30,
+  "approval_matrix": [
+    { "max_amount": 50000, "approval": "Auto-approve" },
+    { "max_amount": 200000, "approval": "Manager approval" },
+    { "max_amount": null, "approval": "Director approval (Manual Review)" }
+  ],
+  "director_threshold": 200000
+}

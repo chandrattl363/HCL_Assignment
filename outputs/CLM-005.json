@@ -1,0 +1,51 @@
+{
+  "decision": {
+    "claim_id": "CLM-005",
+    "decision": "Reject",
+    "claimed_amount": 27500.0,
+    "approved_amount": 0.0,
+    "rejected_amount": 27500.0,
+    "deductions": [],
+    "missing_documents": [],
+    "policy_references": [
+      "Policy Section 8: Duplicate Claims",
+      "Section 3, Article 7: Duplicate Claims"
+    ],
+    "required_approval": "Auto-approve",
+    "confidence": 0.9,
+    "reason_codes": [
+      "DUPLICATE"
+    ],
+    "explanation": "The claim is a duplicate of a previously paid claim, CLM-2025-0188, for the same item, Hotel, 1 night."
+  },
+  "audit_trail": [
+    {
+      "tool": "check_eligibility",
+      "args": {}
+    },
+    {
+      "tool": "check_spending_limits",
+      "args": {}
+    },
+    {
+      "tool": "check_receipt_completeness",
+      "args": {}
+    },
+    {
+      "tool": "check_submission_window",
+      "args": {}
+    },
+    {
+      "tool": "detect_duplicate",
+      "args": {}
+    },
+    {
+      "tool": "check_airfare_class",
+      "args": {}
+    },
+    {
+      "tool": "check_approval_threshold",
+      "args": {}
+    }
+  ]
+}
